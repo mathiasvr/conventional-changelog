@@ -4,13 +4,13 @@
     "email": "maochenyan@gmail.com",
     "url": "https://github.com/stevemao"
   },
-  "bin": "",
-  "bugs": "https://github.com/conventional-changelog/conventional-changelog/issues",
+  "bin":  {
+    "conventional-changelog": "packages/conventional-changelog-cli/cli.js"
+  },
   "description": "Generate a changelog from git metadata",
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
   "keywords": [
     "conventional-changelog",
     "readme",
@@ -19,21 +19,6 @@
   "license": "ISC",
   "main": "",
   "name": "conventional-changelog-monorepo",
-
-  "renovate": {
-    "extends": [
-      "config:base",
-      ":maintainLockFilesWeekly",
-      ":rebaseStalePrs",
-      ":automergeDigest",
-      ":gitSignOff",
-      ":preserveSemverRanges"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/conventional-changelog/conventional-changelog.git"
-  },
   "scripts": {
     "lint": "eslint . --cache --cache-location ./node_modules/.cache/ --ignore-path .gitignore",
     "fix": "eslint . --fix --cache --cache-location ./node_modules/.cache/ --ignore-path .gitignore",
