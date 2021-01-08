@@ -20,6 +20,7 @@
   "license": "ISC",
   "main": "",
   "name": "conventional-changelog-monorepo",
+
   "renovate": {
     "extends": [
       "config:base",
@@ -74,26 +75,6 @@
     "vinyl": "^2.1.0"
   },
   "dependencies": {
-    "conventional-changelog": "file:packages/conventional-changelog",
-    "conventional-changelog-angular": "file:packages/conventional-changelog-angular",
-    "conventional-changelog-atom": "file:packages/conventional-changelog-atom",
-    "conventional-changelog-cli": "file:packages/conventional-changelog-cli",
-    "conventional-changelog-codemirror": "file:packages/conventional-changelog-codemirror",
-    "conventional-changelog-conventionalcommits": "file:packages/conventional-changelog-conventionalcommits",
-    "conventional-changelog-core": "file:packages/conventional-changelog-core",
-    "conventional-changelog-ember": "file:packages/conventional-changelog-ember",
-    "conventional-changelog-eslint": "file:packages/conventional-changelog-eslint",
-    "conventional-changelog-express": "file:packages/conventional-changelog-express",
-    "conventional-changelog-jquery": "file:packages/conventional-changelog-jquery",
-    "conventional-changelog-jshint": "file:packages/conventional-changelog-jshint",
-    "conventional-changelog-preset-loader": "file:packages/conventional-changelog-preset-loader",
-    "conventional-changelog-writer": "file:packages/conventional-changelog-writer",
-    "conventional-commits-filter": "file:packages/conventional-commits-filter",
-    "conventional-commits-parser": "file:packages/conventional-commits-parser",
-    "conventional-recommended-bump": "file:packages/conventional-recommended-bump",
-    "git-raw-commits": "file:packages/git-raw-commits",
-    "git-semver-tags": "file:packages/git-semver-tags",
-    "gulp-conventional-changelog": "file:packages/gulp-conventional-changelog",
-    "standard-changelog": "file:packages/standard-changelog"
+
   }
 }
