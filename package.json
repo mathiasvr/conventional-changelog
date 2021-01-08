@@ -20,7 +20,6 @@
   "license": "ISC",
   "main": "",
   "name": "conventional-changelog-monorepo",
-  "private": true,
   "renovate": {
     "extends": [
       "config:base",
